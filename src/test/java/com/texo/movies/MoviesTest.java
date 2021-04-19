@@ -60,7 +60,7 @@ class MoviesTest {
 	}
 	
 	@Test
-	void winnerShorterInterval() throws Exception {
+	void winnerLongerAndShorterInterval() throws Exception {
 		final SimpleDateFormat sdf = new SimpleDateFormat("yyyy");
 		
 		final GoldenRaspberryAwardsWinners winnerLongerAndShorter = moviesService.getWinnerLongerAndShorter();
